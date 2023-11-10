@@ -3,5 +3,4 @@ const fetchData =  async () => {
     const json = await response.json()
     return json
  }
-
  export {fetchData}
