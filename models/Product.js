@@ -47,7 +47,7 @@ class Products {
     addToCart(id){
         const product = this.products.find(item => item.id === +id)
         this.cart.products.push(product)
-        console.log(this.cart)
+        this.cart.showProducts()
     }
 }
 export default Products

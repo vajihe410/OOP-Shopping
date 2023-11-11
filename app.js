@@ -4,7 +4,7 @@ import { fetchData } from "./utils/httpRequest.js"
 
 const productsNode = document.getElementById("products")
 const cartListNode = document.getElementById("card-list")
-const totalPriceNode = document.querySelector(".total-price")
+const totalPriceNode = document.querySelector("#total-price span")
 
 const render =async () => {
    const ProductData = await fetchData()
